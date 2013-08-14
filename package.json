@@ -3,6 +3,8 @@
   "version": "0.0.2",
   "description": "Compiler for ES6 with no runtime component",
   "bin": "./bin/cli.js",
+  "main": "./extended.js",
+  "browser": "./index.js",
   "keywords": [],
   "dependencies": {
     "esprima": "https://github.com/ariya/esprima/archive/harmony.tar.gz",
