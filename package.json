@@ -1,0 +1,26 @@
+{
+  "name": "yieldify",
+  "version": "0.0.0",
+  "description": "Compiler for ES6 with no runtime component",
+  "bin": "./bin/cli.js",
+  "keywords": [],
+  "dependencies": {
+    "esprima": "https://github.com/ariya/esprima/archive/harmony.tar.gz",
+    "mkdirp": "~0.3.5",
+    "lsr": "~1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "linify": "~1.0.1"
+  },
+  "scripts": {
+    "test": "mocha -R spec",
+    "prepublish": "linify transform bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/yieldify.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT"
+}
