@@ -1,6 +1,6 @@
 {
   "name": "yieldify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Compiler for ES6 with no runtime component",
   "bin": "./bin/cli.js",
   "main": "./extended.js",
