@@ -8,11 +8,14 @@ var lsr = require('lsr').sync
 var mkdir = require('mkdirp').sync
 var parse = require('esprima').parse
 
+var falafel = require('./lib/falafel')
+var transform = require('./lib/transform')
+
 module.exports = compile
 module.exports.folder = compileFolder
 
 function compile(path, source) {
-  return require('./lib/falafel')(source, require('./lib/transform'))
+  return falafel(source, transform).toString()
 }
 
 function compileFolder(source, destination, options) {
