@@ -14,6 +14,8 @@ Non goals include:
 
 In short, this gives you those helpful syntactic shortcuts without the bloat that often acompanies transpilers.
 
+You can see a live demo of yieldify at [demos.forbeslindesay.co.uk/yieldify](http://demos.forbeslindesay.co.uk/yieldify/)
+
 [![Build Status](https://travis-ci.org/ForbesLindesay/yieldify.png?branch=master)](https://travis-ci.org/ForbesLindesay/yieldify)
 [![Dependency Status](https://gemnasium.com/ForbesLindesay/yieldify.png)](https://gemnasium.com/ForbesLindesay/yieldify)
 [![NPM version](https://badge.fury.io/js/yieldify.png)](http://badge.fury.io/js/yieldify)
