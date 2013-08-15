@@ -2,7 +2,9 @@
 //It also handles FunctionExpression as the value of a MethodDefinition
 
 module.exports = function (node) {
-  var result = 'function '
+  var result = 'function'
+  if (node.generator) result += '*'
+  result += ' '
   if (node.id) {
     result += node.id.source()
   }
