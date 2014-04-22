@@ -16,9 +16,9 @@ In short, this gives you those helpful syntactic shortcuts without the bloat tha
 
 You can see a live demo of yieldify at [demos.forbeslindesay.co.uk/yieldify](http://demos.forbeslindesay.co.uk/yieldify/)
 
-[![Build Status](https://travis-ci.org/ForbesLindesay/yieldify.png?branch=master)](https://travis-ci.org/ForbesLindesay/yieldify)
-[![Dependency Status](https://gemnasium.com/ForbesLindesay/yieldify.png)](https://gemnasium.com/ForbesLindesay/yieldify)
-[![NPM version](https://badge.fury.io/js/yieldify.png)](http://badge.fury.io/js/yieldify)
+[![Build Status](https://img.shields.io/travis/ForbesLindesay/yieldify/master.svg)](https://travis-ci.org/ForbesLindesay/yieldify)
+[![Dependency Status](https://img.shields.io/gemnasium/ForbesLindesay/yieldify.svg)](https://gemnasium.com/ForbesLindesay/yieldify)
+[![NPM version](https://img.shields.io/npm/v/yieldify.svg)](http://badge.fury.io/js/yieldify)
 
 ## Features supported
 
